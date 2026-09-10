@@ -1,0 +1,43 @@
+{
+  "name": "secretscan-zero",
+  "private": true,
+  "version": "1.5.0",
+  "type": "module",
+  "description": "SecretScan-Zero — a zero-backend, zero-knowledge secret scanner. Detects and redacts API keys, private keys and credentials 100% inside the browser via Web Workers.",
+  "keywords": [
+    "security",
+    "secrets",
+    "secret-scanning",
+    "leaks",
+    "web-worker",
+    "privacy",
+    "zero-knowledge",
+    "react",
+    "tailwindcss",
+    "vite",
+    "jszip"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test \"tests/**/*.test.mjs\""
+  },
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "lucide-react": "^0.462.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.10"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true
+  }
+}
