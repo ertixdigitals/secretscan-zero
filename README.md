@@ -2,6 +2,10 @@
 
 **A zero-backend, zero-knowledge secret scanner that finds and redacts hardcoded credentials entirely inside your browser.**
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Stack: React + Vite + Tailwind](https://img.shields.io/badge/stack-React%20%7C%20Vite%20%7C%20Tailwind-34d399)](#tech-stack)
+[![Tests: node:test](https://img.shields.io/badge/tests-node%3Atest-8b5cf6)](#tests)
+
 ---
 
 ## What it does
